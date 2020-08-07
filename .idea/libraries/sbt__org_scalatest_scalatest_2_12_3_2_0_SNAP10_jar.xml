@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.scalatest:scalatest_2.12:3.2.0-SNAP10:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.2.0-SNAP10/scalatest_2.12-3.2.0-SNAP10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.2.0-SNAP10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

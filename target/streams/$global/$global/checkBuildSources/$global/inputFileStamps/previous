@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]",{"hashes":[["/Users/kall01/repos/named-literal-arguments/scalafix/build.sbt","df3eed1b1b138b09502f8ae796c7bd608fd8b3d8"],["/Users/kall01/repos/named-literal-arguments/scalafix/project/plugins.sbt","cb9124d3ef48f5334495ea785fd36b14a82fb51d"]],"lastModifiedTimes":[]}]

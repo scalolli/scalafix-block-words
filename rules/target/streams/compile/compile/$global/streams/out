@@ -1,0 +1,28 @@
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[31merror[0m] [0m[0m/Users/kall01/repos/named-literal-arguments/scalafix/rules/src/main/scala/fix/TwitterList.scala:22:7: No implicit view available from scalafix.patch.Patch => scala.collection.GenTraversableOnce[B].[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[31merror[0m] [0m[0m    }.flatten.asPatch[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[31merror[0m] [0m[0mone error found[0m

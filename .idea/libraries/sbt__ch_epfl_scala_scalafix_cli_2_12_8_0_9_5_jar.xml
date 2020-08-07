@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: ch.epfl.scala:scalafix-cli_2.12.8:0.9.5:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-cli_2.12.8/0.9.5/scalafix-cli_2.12.8-0.9.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
