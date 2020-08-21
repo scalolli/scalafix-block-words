@@ -1,3 +1,19 @@
-[debug] "not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/Users/kall01/repos/named-literal-arguments/scalafix/project/"), "scalafix-build")...
-[debug] Done updating ProjectRef(uri("file:/Users/kall01/repos/named-literal-arguments/scalafix/project/"), "scalafix-build")
+[2K
+[2K
+[2K
+[2K
+[2K
+[5A[0m[[0m[0mdebug[0m] [0m[0m"not up to date. inChanged = true, force = false[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[5A[0m[[0m[0mdebug[0m] [0m[0mUpdating ProjectRef(uri("file:/Users/kall01/repos/scalafix-block-words/project/"), "scalafix-block-words-build")...[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[0mdebug[0m] [0m[0mDone updating ProjectRef(uri("file:/Users/kall01/repos/scalafix-block-words/project/"), "scalafix-block-words-build")[0m
