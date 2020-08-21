@@ -33,7 +33,7 @@ class ScalafixBlockWords extends SyntacticRule("BlockWords") {
   }
 
   private def containsBlockedWord(word: String): Boolean = {
-    List("master", "sanityCheck", "whitelist", "blacklist").map(_.toLowerCase()).exists(blockedWord => {
+    List("master", "sanityCheck", "whitelist", "blacklist", "dummy").map(_.toLowerCase()).exists(blockedWord => {
       val wordIgnoredCase = word.toLowerCase()
       wordIgnoredCase.contains(blockedWord) || wordIgnoredCase.startsWith(blockedWord)
     })
