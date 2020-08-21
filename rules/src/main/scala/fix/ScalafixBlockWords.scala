@@ -15,8 +15,6 @@ class BlockWords extends SyntacticRule("BlockWords") {
 
   override def fix(implicit doc: SyntacticDocument): Patch = {
     doc.tree.collect {
-      //      case t@Term.Apply(Term.Name(name), List()) if containsBlockedWord(name) =>
-      //        List(Patch.lint(BlockedWord(name, t.pos)))
       case Defn.Val(List(), pats, None, value) => {
         val patch1 = value match {
           case s@Lit.String(v) if containsBlockedWord(v) =>

@@ -3,7 +3,7 @@ rule = BlockWords
  */
 package test
 
-object BlockWords {
+object ScalafixBlockWords {
   val master = "master"
   val sanityCheck = true
   val whiteList = Nil
