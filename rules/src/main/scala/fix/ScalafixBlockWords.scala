@@ -11,7 +11,7 @@ case class BlockedWord(value: String, pos: Position) extends Diagnostic {
     s"Blocked word! '$value'"
 }
 
-class BlockWords extends SyntacticRule("BlockWords") {
+class ScalafixBlockWords extends SyntacticRule("BlockWords") {
 
   override def fix(implicit doc: SyntacticDocument): Patch = {
     doc.tree.collect {
