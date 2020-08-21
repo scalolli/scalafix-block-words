@@ -11,17 +11,13 @@ case class BlockedWord(value: String, pos: Position) extends Diagnostic {
     s"Blocked word! '$value'"
 }
 
-class TwitterList extends SyntacticRule("TwitterList") {
+class BlockWords extends SyntacticRule("BlockWords") {
 
   override def fix(implicit doc: SyntacticDocument): Patch = {
-    println(q"sanityCheck()".structure)
-    println(q"val sanityCheck = 12".structure)
-
     doc.tree.collect {
       //      case t@Term.Apply(Term.Name(name), List()) if containsBlockedWord(name) =>
       //        List(Patch.lint(BlockedWord(name, t.pos)))
       case Defn.Val(List(), pats, None, value) => {
-        println("Found our val")
         val patch1 = value match {
           case s@Lit.String(v) if containsBlockedWord(v) =>
             Patch.lint(BlockedWord(v, s.pos))
@@ -39,7 +35,10 @@ class TwitterList extends SyntacticRule("TwitterList") {
   }
 
   private def containsBlockedWord(word: String): Boolean = {
-    List("master", "sanityCheck").exists(_.contains(word))
+    List("master", "sanityCheck", "whitelist", "blacklist").map(_.toLowerCase()).exists(blockedWord => {
+      val wordIgnoredCase = word.toLowerCase()
+      wordIgnoredCase.contains(blockedWord) || wordIgnoredCase.startsWith(blockedWord)
+    })
   }
 
 }

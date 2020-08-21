@@ -13,7 +13,7 @@ inThisBuild(
 skip in publish := true
 
 lazy val rules = project.settings(
-  moduleName := "twitter-word-block",
+  moduleName := "block-words",
   libraryDependencies += "ch.epfl.scala" %% "scalafix-core" % V.scalafixVersion
 )
 
