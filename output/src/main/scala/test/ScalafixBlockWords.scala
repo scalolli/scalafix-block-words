@@ -6,4 +6,5 @@ object ScalafixBlockWords {
   val whiteList = Nil
   val blackList = Nil
   val dummyValue = Nil
+  val goldenMaster = ""
 }
