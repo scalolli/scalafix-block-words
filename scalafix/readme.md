@@ -1,6 +1,6 @@
-# Scalafix rule for blocking words from your repository
+# Scalafix rule for blocking words
 
-Scalafix plugin to block words in a repository from the list published by [twitter](https://twitter.com/TwitterEng/status/1278733305190342656)
+Block words in a repository from the list published by [twitter](https://twitter.com/TwitterEng/status/1278733305190342656)
 
 ### How to use
 
