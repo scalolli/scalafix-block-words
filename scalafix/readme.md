@@ -17,4 +17,46 @@ scalafix --rules=github:scalolli/scalafix-block-words
 test:scalafix --rules=github:scalolli/scalafix-block-word
 ```
 
+- You should then see this in your console:
+
+```
+
+###########> Lint       <###########
+
+
+===========> Unexpected <===========
+
+test/ScalafixBlockWords.scala:7:16: error: [BlockWords]:
+Blocked word! 'master'
+  val master = "master"
+               ^^^^^^^^
+
+test/ScalafixBlockWords.scala:8:7: error: [BlockWords]:
+Blocked word! 'sanityCheck'
+  val sanityCheck = true
+      ^^^^^^^^^^^
+
+---------------------------------------
+
+test/ScalafixBlockWords.scala:9:7: error: [BlockWords]:
+Blocked word! 'whiteList'
+  val whiteList = Nil
+      ^^^^^^^^^
+
+---------------------------------------
+
+test/ScalafixBlockWords.scala:11:7: error: [BlockWords]:
+Blocked word! 'dummyValue'
+  val dummyValue = Nil
+      ^^^^^^^^^^
+
+---------------------------------------
+
+test/ScalafixBlockWords.scala:12:7: error: [BlockWords]:
+Blocked word! 'goldenMaster'
+  val goldenMaster = ""
+      ^^^^^^^^^^^^
+
+```
+
 
